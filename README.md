@@ -9,6 +9,10 @@ It reads either:
 
 It writes one selected conversation as Markdown or raw JSON. No network access, no dependencies.
 
+## Get Your Claude Export
+
+Follow Anthropic's official guide to [export your Claude data](https://support.claude.com/en/articles/9450526-how-can-i-export-my-claude-ai-data). Claude Split can read the downloaded ZIP directly, or an extracted `conversations.json` file.
+
 ## List Conversations
 
 ```powershell
